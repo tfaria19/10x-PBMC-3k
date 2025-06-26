@@ -47,3 +47,25 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Data files (too large for GitHub)
+*.h5
+*.h5ad
+*.rds
+*.gz
+data/raw/*
+!data/raw/README.md
+
+# Large result files
+*.pdf
+results/figures/*
+!results/figures/README.md
+
+# R-specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+renv/staging/
+renv/python/
