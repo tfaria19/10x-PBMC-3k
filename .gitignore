@@ -69,3 +69,6 @@ results/figures/*
 renv/library/
 renv/staging/
 renv/python/
+
+# MacOS
+.DS_Store
