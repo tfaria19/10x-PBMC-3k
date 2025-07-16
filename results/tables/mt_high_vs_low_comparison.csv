@@ -1,0 +1,4 @@
+"threshold","low_mt_cells","high_mt_cells","low_mt_median_genes","high_mt_median_genes","low_mt_median_umi","high_mt_median_umi","gene_difference_pct"
+"5%",595,2346,1409,1536.5,2370,2920.5,9
+"10%",1146,1795,1454,1541,2531.5,2987,6
+"15%",2159,782,1484,1585,2682,3237,6.8
