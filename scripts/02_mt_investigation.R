@@ -129,7 +129,6 @@ p_mt_vs_umi <- ggplot(pbmc@meta.data, aes(x = nCount_RNA, y = percent.mt)) +
   theme_minimal()
 
 # Combine the scatter plots
-library(patchwork)
 p_combined_scatter <- p_mt_vs_genes + p_mt_vs_umi
 ggsave("results/figures/mt_investigation/mt_vs_other_metrics.png", 
        p_combined_scatter, width = 14, height = 6, dpi = 300)
